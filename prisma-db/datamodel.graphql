@@ -1,0 +1,5 @@
+type Guest {
+  id: ID! @unique
+  name: String!
+  isConfirmed: Boolean!
+}
